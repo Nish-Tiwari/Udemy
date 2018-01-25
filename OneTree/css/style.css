@@ -1,0 +1,68 @@
+html,body{
+    height:100%;
+    font-size: 16px;
+    font-family: 'Cubano-Regular';
+    
+    
+    background: url('../img/pattern.jpg') center center ;
+    
+}
+
+/* Font Faces */
+
+@font-face {
+    
+    font-family: 'Cubano-Regular';
+    src: local('Cubano-Regular.otf'), url('Cubano-Regular.otf') format('opentype');
+}
+@font-face {
+    
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular.ttf'), url('Nunito-Regular.ttf') format('truetype');
+}
+
+#cover{
+    height: 100%;
+    background: url('../img/trees.jpg') center;
+    background-size: cover;
+    color:floralwhite;
+}
+.wall-sticker{
+    background: rgba(0, 0, 0, 0.15);
+    padding:12rem 18rem 11rem 3rem;
+    font-family: Cubano-Regular;
+    font-size: 4rem ;
+    color:beige;
+    
+}
+.moto{
+    font-family: Cubano-Regular;
+    font-size:2rem;
+    margin-top: 210px;
+    margin-left: 200px;
+    text-align:center;
+}
+
+
+/* buttons */
+.btn-sm{
+    background-color: transparent;
+    border-radius:0.3rem;
+    border: 2px solid rgba(19,128,26,0.4);
+font-family: Cubano-Regular;
+}
+
+.btn-sm:hover,
+.btn-sm:focus,
+.btn-sm:active
+{
+    
+   background-color: rgba(19, 128, 36, 0.44);
+    
+    
+}
+
+
+
+
+
